@@ -1,0 +1,23 @@
+<header>
+  <h1>Indy Beer List <small>a list of breweries in Indianapolis</small></h1>  
+  <div class="segmented-control">
+    <a class="control-item active">List</a>
+    <a class="control-item" href="#/map">Map</a>
+  </div>
+</header>
+<section id="list">
+  <div class="wrap">
+    <table class="breweries">
+      <tr ng-repeat="brewery in breweries" class="brewery">
+        <td class="avatar">
+            <img ng-if="brewery.twitterID > 0" alt="{{brewery.name}}" class="user-image" height="60" ng-src="http://res.cloudinary.com/skligerman/image/twitter/{{brewery.twitterID}}.jpg" width="60">
+        </td>
+        <td class="title">
+            <a href="{{brewery.url}}" class="url" target="_blank">{{brewery.name}}</a>
+            <span ng-if="brewery.isComingSoon == true" class="badge">Coming soon</span>
+            <span class="address">{{brewery.address}}</span>
+        </td>
+      </tr>
+    </table>
+  </div> 
+</section>

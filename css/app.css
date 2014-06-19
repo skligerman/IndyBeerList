@@ -1,0 +1,232 @@
+*, :after, :before {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+html { font-size:100%; }
+
+body {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  margin:0;
+  padding:0;
+}
+a {color:#fff;}
+h1,h2,h3,h4,h5,h6 {
+font:23px/1.5em "Montserrat", Helvetica, Arial, sans-serif;
+font-weight:700;
+margin:0;
+padding:0;
+}
+
+h2 {
+font-size:21px;
+}
+
+h3 {
+font-size:19px;
+}
+
+h4 {
+font-size:17px;
+}
+
+h5 {
+font-size:15px;
+}
+
+h6 {
+font-size:13px;
+}
+
+header {
+position: relative;
+font-family: "Montserrat", Helvetica, Arial, sans-serif;
+text-align: center;
+padding: 1em 1em;
+background: #EB4;
+background-size: cover;
+color: #332;
+}
+header h1 {
+font-size: 2.2em;
+font-weight: bold;
+letter-spacing: 0.08em;
+line-height: 1.5;
+margin-bottom: 0.5em;
+text-transform: uppercase;
+}
+header h1 small {
+font-size: 0.4em;
+letter-spacing: 0.15em;
+font-weight: normal;
+display: block;
+}
+
+header .btn {
+color: #FFF;
+background-color: #9B883E;
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: normal;
+line-height: 1.428571429;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+border: 1px solid rgba(0, 0, 0, 0);
+border-radius: 30px;
+white-space: nowrap;
+text-decoration: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+.segmented-control {
+max-width: 300px;
+margin: 0 auto;
+position: relative;
+display: table;
+overflow: hidden;
+font-size: 14px;
+font-weight: 400;
+border: 1px solid #fff;
+border-radius: 3px;
+}
+.segmented-control .control-item {
+cursor: pointer;
+display: table-cell;
+width: 1%;
+padding-top: 6px;
+padding-bottom: 7px;
+overflow: hidden;
+line-height: 1;
+color: #333;
+text-align: center;
+text-overflow: ellipsis;
+white-space: nowrap;
+border-left: 1px solid #CCC;
+text-decoration: none;
+}
+.segmented-control .control-item.active {
+background-color: #fff;
+}
+.segmented-control .control-item:first-child {
+border-left-width: 0;
+
+}
+#list {
+  color: #CCC;
+  background-color:#393939;
+  
+  padding: 1em 0;
+}
+.wrap {
+min-width: 600px;
+max-width: 900px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.breweries {
+width: 100%;
+border-spacing: 0;
+}
+.brewery {
+font-size: 18px;
+padding: 10px 0;
+height: 50px;
+vertical-align: top;
+}
+.avatar {
+width: 40px;
+position: relative;
+}
+.user-image {
+border-radius: 100%;
+width: 30px;
+height: 30px;
+}
+.url {
+border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+text-decoration: none;
+color: #fff;
+font-weight: 700;
+font-size: 1.2rem;
+}
+.url:hover { border:none;}
+.address {
+font-size: 15px;
+color: #999;
+}
+.badge {
+display: inline-block;
+padding: 6px 9px;
+font-size: 10px;
+line-height: 1;
+color: #FFF;
+background-color: rgba(0, 0, 0, 0.3);
+border-radius: 100px;
+}
+footer {background-color: #000;  padding:1rem; font-size:1rem;}
+footer a {color:#ccc;}
+
+@media (max-width: 640px) { 
+  body {font-size:1.2rem;}
+  .wrap { min-width: 280px; padding:0 0.4em;}
+  header {padding: 1rem 0.5rem;}
+  header h1 {font-size:1.6rem;} 
+  .url { font-size: 1.0rem;}
+  .address{ display:block; font-size:13px; margin:2px 0 0.9rem;}
+} 
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} }
+
+/* Map.html */
+#map header { height: 44px; padding:0;}
+#map h3 { padding: 10px; font-size: 14px;}
+html, body, #google-map {
+height: 100%;
+margin: 0px;
+padding: 0px;
+}
+.map-card {
+margin: 0;
+padding: 0;
+display: block;
+height: 80px;
+overflow: hidden;
+background-color: #FFF;
+}
+.map-card .image {
+float: left;
+height: 60px;
+width: 60px;
+}
+.map-card .details {
+display: inline-block;
+width: 163px;
+position: relative;
+height: 75px;
+margin: 5px 5px 5px 11px;
+color: #676767;
+}
+.map-card .name {
+color: #666;
+font-weight: 700;
+font-family: "Montserrat", Helvetica, Arial, sans-serif;
+display: block;
+font-size: 15px;
+line-height: 15px;
+margin-bottom: 6px;
+}
+.map-card .address  {
+color: #666;
+font-family: ProximaNovaReg,Helvetica Neue,Helvetica,Arial,sans-serif;
+display: block;
+font-size: 13px;
+line-height: 14px;
+}

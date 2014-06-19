@@ -1,0 +1,301 @@
+[{
+  "id": 1,
+  "name": "Sun King Brewing Co.",
+  "url": "http://www.sunkingbrewing.com/",
+  "avatar": "SunKingBrewing",
+  "address": "135 N College Ave, Indianapolis, IN 46202",
+  "phone": "(317) 602-3702",
+  "description": "Sun King Brewing Company is an Indianapolis-based craft brewery with a focus on continually creating traditional seasonal and unique specialty beers. Sun King rolled its first keg of beer out the door in July 2009 and since that time has grown into the second largest brewery in Indiana. Sun King's beers have been awarded multiple medals at the Great American Beer Festival and World Beer Cup.",
+  "latitude": 39.7689,
+  "longitude": -86.144666,
+  "twitterID":19022400
+},
+{
+  "id": 2,
+  "name": "Broad Ripple Brewpub",
+  "url" : "http://www.broadripplebrewpub.com",
+  "address" : "840 E 65th St, Indianapolis, IN 46220",
+  "latitude": 39.873620039,
+  "longitude": -86.1427400,
+  "avatar" : "brbrewpub",
+  "twitterID" : 24443685
+},
+{
+  "id": 3,
+  "name": "Brugge Brasserie",
+  "url" : "http://www.bruggebrasserie.com/",
+  "address" : "1011 Westfield Blvd, Indianapolis, IN 46220",
+  "twitterID":44691478,
+  "latitude":39.8736200,
+  "longitude":-86.1427400
+},
+{
+  "id": 4,
+  "url":"http://www.theram.com/",
+  "address":"140 S Illinois St, Indianapolis, IN 46225",
+  "name": "The Ram Restaurant and Brewery",
+  "twitterID":164338516,
+  "latitude":39.7649841,
+  "longitude":-86.1605301
+},
+{
+  "id": 5,
+  "url":"http://uplandbeer.com/",
+  "address":"4842 N College Ave, Indianapolis, IN 46240",
+  "name": "Upland Tasting Room",
+  "twitterID":590071102,
+  "latitude":39.8421288,
+  "longitude":-86.1457267
+},
+{
+  "id": 6,
+  "url" : "http://www.bierbrewery.com/",
+  "address":"5133 E 65th St, Indianapolis, IN 46220",
+  "name": "Bier Brewery & Tap Room",
+  "twitterID":158951714,
+  "latitude":39.8755226,
+  "longitude":-86.0830078
+},
+{
+  "id": 7,
+  "url":"http://flat12.me",
+  "address":"414 Dorman St, Indianapolis, IN 46202",
+  "name": "Flat12 Bierwerks",
+  "twitterID":168734142,
+  "latitude":39.7728348,
+  "longitude":-86.1386871
+},
+{
+  "id": 8,
+  "address":"1021 Broad Ripple Ave, Indianapolis, IN 46220",
+  "url":"http://www.thr3ewisemen.com/",
+  "name": "Thr3e Wise Men Brewing Company",
+  "twitterID":198923900,
+  "latitude":39.8694038,
+  "longitude":-86.1405334
+},
+{
+  "id": 9,
+  "name": "Triton Brewing Company",
+  "address":"5764 Wheeler Rd, Indianapolis, IN 46216",
+  "url":"http://tritonbrewing.com/",
+  "twitterID":145340127,
+  "latitude":39.8602753,
+  "longitude":-86.0070877
+},
+{
+  "id": 10,
+  "name": "Black Acre Brewing Company",
+  "address":"5632 E Washington St, Indianapolis, IN 46219",
+  "url":"http://blackacrebrewing.com/home/",
+  "twitterID":70240916,
+  "latitude":39.7711105,
+  "longitude":-86.0710068
+},
+{
+  "id": 11,
+  "name": "Fountain Square Brewing Co.",
+  "address":"1301 Barth Ave, Indianapolis, IN 46203",
+  "url":"http://fountainsquarebrewery.com/",
+  "twitterID":248235115,
+  "latitude":39.7495918,
+  "longitude":-86.1405258
+},
+{
+  "id": 12,
+  "name": "Rock Bottom Brewery (86th St)",
+  "url":"http://www.rockbottom.com/",
+  "address":"2801 Lake Cir Dr, Indianapolis, IN 46268",
+  "twitterID":351045001,
+  "latitude":39.9126167,
+  "longitude":-86.2094421
+},
+{
+  "id": 13,
+  "name": "Rock Bottom Brewery (10th St)",
+  "url":"http://www.rockbottom.com/",
+  "address":"10 S Washington St, Indianapolis, IN 46204",
+  "twitterID":351045001,
+  "latitude":39.6144978,
+  "longitude":-86.103453
+},
+{
+  "id": 14,
+  "name": "Twenty Tap",
+  "address":"5406 N College Ave, Indianapolis, IN 46220",
+  "url":"http://www.twentytap.com/‎",
+  "twitterID":353964307,
+  "latitude":39.8512306,
+  "longitude":-86.1461105
+},
+{
+  "id": 15,
+  "name": "Indiana City Brewing",
+  "address":"24 Shelby St, Indianapolis, IN 46202",
+  "url":"http://indianacitybeer.com/‎",
+  "twitterID":115517773,
+  "latitude":39.765825,
+  "longitude":-86.140813
+},
+{
+  "id": 16,
+  "name": "Union Brewing Company",
+  "address":"622 N Rangeline Rd, Carmel, IN 46032",
+  "url":"http://www.unionbrewingco.com/‎",
+  "twitterID":562556755,
+  "latitude":40.1164424,
+  "longitude":-85.6335609
+},
+{
+  "id": 17,
+  "name": "Outliers Brewing Company",
+  "address":"534 E North St, Indianapolis, IN 46204",
+  "url":"http://outliersbrewing.com/‎",
+  "twitterID":901103552,
+  "latitude":39.775323,
+  "longitude":-86.149048
+},
+{
+  "id": 19,
+  "name": "Bent Rail",
+  "url":"http://bentrailbrewery.com/",
+  "isComingSoon": true,
+  "address":"5301 Winthrop Ave, Indianapolis, IN 46220",
+  "latitude":39.849343,
+  "longitude":-86.141152
+},
+{
+  "id": 20,
+  "name": "Books & Brews",
+  "twitterID":1723909212,
+  "address":"9402 Uptown Drive Suite 1400, Indianapolis, IN 46256",
+  "url":"http://www.booksnbrews.com/",
+  "latitude":39.924246,
+  "longitude":-86.036205
+},
+{
+  "id": 21,
+  "name": "Cartel Brewing",
+  "url":"http://cartelbrewing.com/",
+  "isComingSoon": true,
+  "twitterID":1895186113
+},
+{
+  "id": 22,
+  "name": "Flix Brewhouse",
+  "isComingSoon": true,
+  "twitterID":78662567,
+  "url":"http://www.flixbrewhouse.com/flix-brewhouse-carmel",
+  "address":"2160 E 116th Street, Carmel, IN 46032",
+  "latitude":39.958945,
+  "longitude":-86.116769
+},
+{
+  "id": 23,
+  "name": "Mashcraft Brewing",
+  "twitterID":1527082873,
+  "address":"1140 N State Road 135 Greenwood, IN 46142",
+  "url":"http://www.mashcraftbrews.com",
+  "latitude":39.632922,
+  "longitude":-86.158389
+},
+{
+  "id": 24,
+  "name": "Scarlet Lane Brewing Co.",
+  "isComingSoon": true,
+  "url":"http://www.scarletlanebrew.com/",
+  "avatar":"ScarletLaneBrew",
+  "twitterID":371317401,
+  "address":"McCordsville, Indiana"
+},
+{
+  "id": 25,
+  "name": "Taxman Brewing Co.",
+  "isComingSoon": true,
+  "twitterID":1558664858,
+  "avatar":"taxmanbrewing",
+  "url":"http://www.taxmanbrewing.com/",
+  "address":"13 S. Baldwin St. Bargersville, IN 46143",
+  "latitude":39.520959,
+  "longitude":-86.167006
+},
+{
+  "id": 26,
+  "name": "Tow Yard Brewing",
+  "avatar":"TowYardBrewing",
+  "twitterID":1880721601,
+  "url":"http://towyardbrewing.com/",
+  "address":"501 S. Madison Indianapolis, IN 46225",
+  "latitude":39.759948,
+  "longitude":-86.156913
+},
+{
+  "id": 27,
+  "name": "Two Deep Brewing Co.",
+  "url":"http://www.twodeepbrewing.com/",
+  "address":"Indianapolis, IN",
+  "isComingSoon": true
+},
+{
+  "id": 28,
+  "name": "Wooden Bear",
+  "avatar":"woodenBearBrew",
+  "twitterID":1212176827,
+  "url":"http://www.woodenbearbrewing.com/",
+  "address":"21 W North St, Greenfield, IN 46140",
+  "latitude":39.785846,
+  "longitude":-85.770083
+},
+{
+  "id": 29,
+  "name": "Wabash Brewing",
+  "address":"Indianapolis, IN",
+  "url":"http://www.wabashbrew.com/",
+  "twitterID":1191990853,
+  "isComingSoon": true
+},
+{
+  "id":30,
+  "name":"Granite City Food & Brewery",
+  "address":"150 W. 96th St, Indianapolis, IN 46290",
+  "url":"http://www.gcfb.net/",
+  "twitterID":25080361,
+  "latitude":39.927241,
+  "longitude":-86.159467
+},
+{
+  "id":31,
+  "name":"Planetary Brewing Company",
+  "address":"500 Polk St #22, Greenwood, IN 46143",
+  "url":"http://planetarybrewing.com/",
+  "twitterID":476859118,
+  "latitude":39.608572,
+  "longitude":-86.100033
+},
+{
+  "id":32,
+  "name":"Oaken Barrel Brewing",
+  "address":"50 Airport Pkwy, Greenwood, IN 46143",
+  "url":"http://oakenbarrel.com/",
+  "twitterID":107176758,
+  "latitude":39.61495,
+  "longitude":-86.090111
+},
+{
+  "id":33,
+  "name":"Barley Island Brewing Company",
+  "address":"639 Conner Street, Noblesville, IN 46060",
+  "url":"http://www.barleyisland.com/",
+  "twitterID":91905736,
+  "latitude":40.045329,
+  "longitude":-86.015547
+},
+{
+  "id":34,
+  "name":"Grand Junction Brewing",
+  "address":"110 S Union Street, Westfield, IN 46074",
+  "url":"http://www.grandjunctionbrewing.com/",
+  "latitude":40.042397,
+  "longitude":-86.127473
+}
+]

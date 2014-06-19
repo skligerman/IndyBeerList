@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Indy Beer List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="A list of breweries in Indianapolis, Indiana" />
+    <link rel="Stylesheet" href="css/app.css" />
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
+    <script src="js/controllers.js"></script>
+</head>
+<body ng-app="beerApp" ng-controller="BreweriesListController">
+  <section id="list">
+    <div class="wrap">
+      <p><a href="/">back</a></p>
+      <h1>About Indy Beer List</h1>
+      <p>I love making lists, and I love Indianapolis. Recently, when a friend of mine moved from Chicago to Indy, he was concerned with Indy's lack of quality local beers. So here's my way of showing off what's available, and what's coming soon.</p>
+      <h5>How did I build it?</h5>
+      <p>This project had an incredibly circuitous route. As a front-end designer/dev, I wanted to learn a lot more about open source and the latest web tools. First, I built the site in Ember, getting insight from <a href="http://codeschool.com">Code School's</a> fantastic learning platform, then built the site in <a href="http://backbonejs.org/">BackBoneJS</a>, but didn't enjoy building in it. Finally, I built the site in AngularJS because it was the most fun to learn.</p>
+
+      <p>The site is currently hosted using <a href="http://divshot.com">Div Shot</a>, because they specialize in static apps and have an easy-to-use command-line deployment process. (During the early part of the process I spent many hours using the command-line and became a lot more comfortable with it). The data is stored in a JSON file, but I plan to move it into a <a href="https://twitter.com/search?q=%23nobackend&src=typd">#NoBackend</a> service like <a href="https://www.firebase.com/">Firebase</a>. As mentioned earlier, the dynamic content is written in <a href="http://angularjs.org/">AngularJS</a>, and the avatars are using <a href="http://cloudinary.com/">Cloudinary's</a> Twitter API.  So, after months of reading blogs, tutorials, and watching Dribbble feeds, I (finally) decided to push the project out and iterate from there.</p>
+      <p><a href="http://www.samkligerman.com">Sam Kligerman</a> | <a href="https://twitter.com/samkligerman">@samkligerman</a> <a href="mailto:sam.kligerman@gmail.com">email</a></p>
+        <p><small>trying to make Indianapolis a better place to live</small></p>
+    </div> 
+  </section>
+  <footer><div class="wrap"><a href="http://twitter.com/samkligerman">@samkligerman</a></div></footer>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-11234801-4', 'indybeerlist.com');
+  ga('send', 'pageview');
+
+</script>  
+</body>
+</html>
+
